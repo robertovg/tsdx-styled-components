@@ -1,3 +1,14 @@
 {
-  "plugins": [["babel-plugin-macros"]]
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "fileName": false,
+        "preprocess": true,
+        "namespace": "tsdx-styled-components"
+      }
+    ]
+  ]
 }
